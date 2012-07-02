@@ -1,0 +1,111 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   
+      <meta name="eGMS.accessibility" scheme="WCAG" content="Double-A">
+      <meta name="DCTERMS.audience" content="" scheme="LGAL" href="http://www.esd.org.uk/standards/lgal/">
+      <meta name="DC.title" content="APLAWS+: Contact Us">
+      <title>CodingCraft: Contact Us</title>
+      <link rel="stylesheet" href="/__ccm__/themes-prod/codingcraft/css/main.css" type="text/css" media="all">
+      <link rel="stylesheet" href="/__ccm__/themes-prod/codingcraft/css/wysiwyg.css" type="text/css" media="all">
+      <link rel="stylesheet" href="/__ccm__/themes-prod/codingcraft/css/style.css" type="text/css" media="all">
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-31300940-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+   </head>
+   <body><script language="javascript">
+      function dcp_hide(e) {
+          if (e.form != null) {
+              elements = e.form.elements;
+              for (i=0; i < elements.length; i++) {
+                 if (elements[i].tagName == "INPUT" && elements[i].type == "submit" && elements[i] != e) {
+                    elements[i].setAttribute("disabled", "disabled");
+                 }
+             }
+        }
+        try {
+            // IE version - setAttribute("value", .... doesn't work in IE, so results in default browser value (submit query) 
+            // also note, class attribute referred to as className in IE!??!
+            
+            proxybutton = document.createElement("<input class='" + e.getAttribute("className") + "' id = '" + e.getAttribute("id") + "' type='submit' value='" +  e.getAttribute("value") + "' disabled />");
+        	
+        } catch (error) {
+            // proper version
+            proxybutton = document.createElement('input');
+            proxybutton.setAttribute("disabled", "disabled");
+            proxybutton.setAttribute("value", e.getAttribute("value"));
+            proxybutton.setAttribute("class", e.getAttribute("class"));
+            proxybutton.setAttribute("id", e.getAttribute("id"));
+            proxybutton.setAttribute("type", "submit");
+        }
+        e.parentNode.insertBefore(proxybutton, e);
+          e.style.display = 'none';
+        
+      }
+    
+        function dcp_disable_link(e) { }
+    </script><a class="navHide" href="#startcontent" title="Go directly to main content" accesskey="S">Skip over navigation</a><span class="hide">|</span><div class="toppage">
+         <div class="inner">
+            <div class="topcontact"> Contact Us :: 01273 937710 / <a href="mailto:info@codingcraft.co.uk">info@codingcraft.co.uk</a></div>
+            <div class="social"><a href="https://www.facebook.com/pages/CodingCraft-Ltd/102564753125083" class="fb">Facebook</a><a href="http://twitter.com/#!/codingcraft" class="tw">Twitter</a><a href="http://www.linkedin.com/company/codingcraft-ltd" class="lin">LinkedIn</a><a href="https://plus.google.com/b/113144579581736294079/113144579581736294079" class="googleplus">Google+</a></div>
+         </div>
+      </div>
+      <div class="wrap">
+         <div class="header"><a href="/" class="logo">CodingCraft</a><ul class="nav">
+               <li><a href="/" title="home">Home</a></li>
+               <li><a href="/services.html" title="Services">Services</a></li>
+               <li><a href="/clients.html" title="Clients">Clients</a></li>
+               <li><a href="/contact-us.html" title="Contact Us" class="active">Contact Us</a></li>
+            </ul>
+         </div>
+         <div class="content"><a id="startcontent" title="Start of content"></a><div class="top_content"></div>
+            <div class="mid_top_content">
+               <div class="introtext">
+
+
+                 <h1 class="intro">CodingCraft are
+                     specialists in support and maintenance </h1>
+                                    <h1 class="contactus">Got a project
+                                       we can help with? <a
+                                          href="contact-us.html">Contact us now for a quote</a></h1>
+
+               </div>
+               <div class="rightintro">
+                  <div class="introimage contact"></div>
+               </div>
+            </div>
+            <div class="foot_top_content"></div>
+            <div class="maincontent"><a class="intLink" name="top"></a><p>
+            If you would like to get in touch with us for a quote or to
+            talk about our services, please call us on 01273 937710 or
+            email <a
+               href="mailto:info@codingcraft.co.uk">info@codingcraft.co.uk</a>.
+            </p>
+            </div>
+            <div class="clear">&nbsp;</div>
+         </div>
+      </div>
+      <div class="footer">
+         <div class="footer_inner"> 
+            
+            &copy; CodingCraft Ltd. 2011
+            
+            
+         </div>
+      </div>
+      <div class="bodyDebug"></div>
+   </body>
+</html>
