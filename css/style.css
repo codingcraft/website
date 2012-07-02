@@ -219,7 +219,10 @@ ul.nav li a:hover{
 
 }
 
-ul.nav li a.active{
+#home ul.nav li a.home,
+#clients ul.nav li a.clients,
+#services ul.nav li a.services,
+#contact-us ul.nav li a.contact-us {
     background-image:url(../images/tab.png);
     color:#AA212B;
 
