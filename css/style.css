@@ -50,7 +50,18 @@ p {
     font-size:1.4em;
 }
 
+ul.pretty {
+    padding:0;
+    margin:0;
+    padding-bottom:1em;
+    line-height:1.5em;
+    font-size:1.4em;
+    padding-left: 15px;
+}
 
+ul.pretty li {
+    margin-bottom: .5em;
+}
 h1, h2, h3, h4, h5, h6 {
     padding:0;
     margin:0;
