@@ -58,7 +58,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1{
-    font-size:2.5em;
+    font-size:2em;
     padding-bottom:0.5em;
 }
 
@@ -174,10 +174,10 @@ select, input, button, submit, textarea {
 
 a.logo{
     width:480px;
-    height:150px;
+    height:100px;
     display:block;
     float:left;
-    background:url(../images/logo.png) no-repeat 30px 50px;
+    background:url(../images/logo.png) no-repeat 30px 30px;
     text-indent:-100000px;
 }
 
@@ -192,7 +192,7 @@ ul.nav{
     float:right;
     display:block;
     width:480px;
-    margin-top:110px;
+    margin-top:60px;
 
 }
 
@@ -261,7 +261,7 @@ h1.intro{
     width:500px;
     margin-top:20px;
     float:left;
-    font-size:2.8em;
+    font-size:2em;
     font-style:normal;
 }
 
@@ -270,6 +270,7 @@ h1.contactus{
     margin-top:20px;
     float:left;
     font-weight:normal;
+    font-size: 1.4em;
 }
 
 h1.contactus a{
