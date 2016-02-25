@@ -100,7 +100,7 @@ select, input, button, submit, textarea {
     position: absolute;
     left: -1000px;
     width: 990px;
-    font-size:1px; 
+    font-size:1px;
 }
 .hide {display:none}
 
@@ -230,10 +230,10 @@ ul.nav li a:hover{
 
 }
 
-#home ul.nav li a.home,
-#clients ul.nav li a.clients,
-#services ul.nav li a.services,
-#contact-us ul.nav li a.contact-us {
+.home ul.nav li.menu-home a,
+.clients ul.nav li.menu-clients a,
+.services ul.nav li.menu-services a,
+.contact-us ul.nav li.menu-contact-us a {
     background-image:url(../images/tab.png);
     color:#AA212B;
 
@@ -319,7 +319,7 @@ h1.contactus a:hover{
     background:url(../images/clientsimage.png) no-repeat;
 }
 
-.introimage.contact{
+.introimage.contact-us{
     background:url(../images/contactimage.png) no-repeat;
 }
 
@@ -334,7 +334,7 @@ h1.contactus a:hover{
     float:left;
     width:500px;
     padding:30px;
-    font-size:0.7em; 
+    font-size:0.7em;
 }
 
 .maincontent a:hover{
