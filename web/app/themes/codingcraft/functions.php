@@ -11,6 +11,7 @@
  */
 $sage_includes = [
   'lib/extras.php',    // Custom functions
+  'lib/custom-fields.php', // Add custom fields
   'lib/setup.php',     // Theme setup
   'lib/titles.php',    // Page titles
   'lib/wrapper.php',   // Theme wrapper class
